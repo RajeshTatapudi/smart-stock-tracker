@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Watchlist.css";
 
-const API_BASE_URL = "http://localhost:5000"; // Update with your backend URL
+const API_BASE_URL = "http://localhost:5050"; // Update with your backend URL
 
 const Watchlist = () => {
   const [stocks, setStocks] = useState([]);

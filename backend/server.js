@@ -6,7 +6,7 @@ const bcrypt = require("bcryptjs"); // For hashing passwords
 const jwt = require("jsonwebtoken");
 
 const app = express();
-const PORT = 5000;
+const PORT = 5050;
 
 // Middleware
 app.use(cors());
